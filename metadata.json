@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Untitled",
+  "description": "AgriBot Mine d’Or - La plateforme qui transforme l’agriculture béninoise en business rentable.\n\nIci tu as tout pour réussir : \n\n1. Calculette intelligente : calcule ton bénéfice, ton investissement et ton seuil de rentabilité pour chaque culture selon ta zone au Bénin. \n\n2. AgriBot IA : pose tes questions agricoles et reçois des conseils pratiques basés sur les données INRAB, MAEP et le terrain béninois. \n\n3. Veille infos : reçois les alertes marché, aides, projets et opportunités agricoles du Bénin en temps réel. \n4. Vidéo innovation agricole : pour voir les techniques et la résolution des problèmes rencontrés dans les autres milieu et l\u0027adapter dans son milieu respectifs.\n\nObjectif : aider chaque jeune agriculteur et technicien à passer de la survie à la rentabilité. \nFait au Bénin, pour le Bénin.\n Propose une interface super intuitive et moderne, accessible hors ligne avec des fonctionnalités multilingues.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

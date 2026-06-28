@@ -1,0 +1,697 @@
+{
+  "departements": [
+    {
+      "nom": "Alibori",
+      "zone": "Extrême Nord + Zone cotonnière Nord",
+      "zone_id": "ZA7",
+      "cultures": [
+        {
+          "nom": "Mil Résistant",
+          "rendement_moyen_kg_m2": 0.8,
+          "cycle_jours": 100,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": [
+            "Semis à la volée ou poquets 80x30cm",
+            "Sarclage 2 fois avant montaison",
+            "Récolte à maturité complète"
+          ],
+          "maladies": [
+            { "nom": "Mildiou", "remede": "Variétés résistantes, rotation culturale stricte" },
+            { "nom": "Charbon de la panicule", "remede": "Traitement préventif des semences au fongicide organique" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 12000,
+            "engrais_fcfa_ha": 34000,
+            "main_oeuvre_fcfa_ha": 35000
+          },
+          "prix_vente_fcfa_kg": 250
+        },
+        {
+          "nom": "Sorgho",
+          "rendement_moyen_kg_m2": 1.2,
+          "cycle_jours": 120,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": [
+            "Semis en ligne 80x30cm",
+            "Sarclage 2 fois avant montaison",
+            "NPK 100kg/ha au semis de base"
+          ],
+          "maladies": [
+            { "nom": "Striga parasite", "remede": "Rotation avec faux-hôtes, variétés résistantes" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 15000,
+            "engrais_fcfa_ha": 34000,
+            "main_oeuvre_fcfa_ha": 40000
+          },
+          "prix_vente_fcfa_kg": 250
+        },
+        {
+          "nom": "Maïs Nord",
+          "rendement_moyen_kg_m2": 2.5,
+          "cycle_jours": 110,
+          "periode_semis": "Mai-Juin",
+          "itineraire": [
+            "Semis de précision 80x40cm",
+            "Urée 100kg/ha 45j après semis",
+            "Sarclage 2 fois"
+          ],
+          "maladies": [
+            { "nom": "Chenille légionnaire d'automne", "remede": "Insecticide homologué MAEP" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 25000,
+            "engrais_fcfa_ha": 34000,
+            "main_oeuvre_fcfa_ha": 45000
+          },
+          "prix_vente_fcfa_kg": 260
+        },
+        {
+          "nom": "Riz irrigué",
+          "rendement_moyen_kg_m2": 3.5,
+          "cycle_jours": 120,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": [
+            "Riziculture irriguée ou bas-fond aménagé",
+            "Repiquage des plants à 25 jours",
+            "Urée fractionnée en deux apports"
+          ],
+          "maladies": [
+            { "nom": "Pyriculariose", "remede": "Fongicide cuivrique précoce ou neem" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 40000,
+            "engrais_fcfa_ha": 51000,
+            "main_oeuvre_fcfa_ha": 80000
+          },
+          "prix_vente_fcfa_kg": 626
+        },
+        {
+          "nom": "Oignon de Galmi",
+          "rendement_moyen_kg_m2": 2.5,
+          "cycle_jours": 120,
+          "periode_semis": "Novembre-Décembre",
+          "itineraire": [
+            "Pépinière 45j sous paille",
+            "Repiquage soigné sur billons",
+            "Arrosage régulier sans asphyxie"
+          ],
+          "maladies": [
+            { "nom": "Mildiou de l'oignon", "remede": "Fongicide cuivrique ou cendre fine" },
+            { "nom": "Thrips", "remede": "Solutions bio à base de neem" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 80000,
+            "engrais_fcfa_ha": 68000,
+            "main_oeuvre_fcfa_ha": 120000
+          },
+          "prix_vente_fcfa_kg": 400
+        },
+        {
+          "nom": "Tomate d'hiver",
+          "rendement_moyen_kg_m2": 2.5,
+          "cycle_jours": 90,
+          "periode_semis": "Novembre-Décembre",
+          "itineraire": [
+            "Pépinière 21j vigoureuse",
+            "Paillage organique régulier",
+            "Récolte échelonnée selon coloration"
+          ],
+          "maladies": [
+            { "nom": "Mosaïque virale", "remede": "Arrachage immédiat, purin de piment fort dilué" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 40000,
+            "engrais_fcfa_ha": 51000,
+            "main_oeuvre_fcfa_ha": 80000
+          },
+          "prix_vente_fcfa_kg": 450
+        },
+        {
+          "nom": "Coton Nord",
+          "rendement_moyen_kg_m2": 0.8,
+          "cycle_jours": 180,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": [
+            "Semis rigoureux en ligne",
+            "Traitement insecticide 4 fois obligatoires",
+            "Récolte manuelle soignée"
+          ],
+          "maladies": [
+            { "nom": "Jassides", "remede": "Insecticide homologué Jacobia" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 20000,
+            "engrais_fcfa_ha": 51000,
+            "main_oeuvre_fcfa_ha": 60000
+          },
+          "prix_vente_fcfa_kg": 300
+        }
+      ],
+      "elevage_dominant": [
+        "Bovin transhumant",
+        "Ovin local",
+        "Caprin Djallonké",
+        "Anes de trait",
+        "Volaille traditionnelle",
+        "Apiculture sèche"
+      ],
+      "transformation": [
+        "Décorticage de riz local",
+        "Moulins à maïs et mil",
+        "Séchage thermique d'oignon",
+        "Transformation laitière artisanale (Wagashi)",
+        "Séchage de viande (Kilichi)",
+        "Égrenage officiel du coton"
+      ],
+      "agro_cosmetique": [
+        "Beurre de karité brut de brousse",
+        "Huile d’arachide pressée à froid",
+        "Savon noir traditionnel au karité",
+        "Huile de sésame clarifiée"
+      ]
+    },
+    {
+      "nom": "Atacora",
+      "zone": "Zone cotonnière Nord + Ouest-Atacora",
+      "zone_id": "ZA8",
+      "cultures": [
+        {
+          "nom": "Igname locale",
+          "rendement_moyen_kg_m2": 2.0,
+          "cycle_jours": 240,
+          "periode_semis": "Décembre-Janvier",
+          "itineraire": [
+            "Buttage volumineux et meuble 30-40cm",
+            "Tuteurage obligatoire des tiges à 2m",
+            "Laisser mûrir pendant 8 à 10 mois"
+          ],
+          "maladies": [
+            { "nom": "Pourriture du tubercule", "remede": "Mélange de cendres sèches et drainage" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 200000,
+            "engrais_fcfa_ha": 17000,
+            "main_oeuvre_fcfa_ha": 150000
+          },
+          "prix_vente_fcfa_kg": 300
+        },
+        {
+          "nom": "Anacarde du plateau",
+          "rendement_moyen_kg_m2": 0.6,
+          "cycle_jours": 365,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": [
+            "Plantation à espacement optimal 10m x 10m",
+            "Taille de formation douce les 3 premières années",
+            "Récolte écoresponsable de Mars à Mai"
+          ],
+          "maladies": [
+            { "nom": "Anthracnose foliaire", "remede": "Traitement fongique bio lors de la floraison" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 50000,
+            "engrais_fcfa_ha": 0,
+            "main_oeuvre_fcfa_ha": 60000
+          },
+          "prix_vente_fcfa_kg": 400
+        },
+        {
+          "nom": "Manioc amer",
+          "rendement_moyen_kg_m2": 3.0,
+          "cycle_jours": 300,
+          "periode_semis": "Avril-Mai",
+          "itineraire": [
+            "Bouturage incliné 1m x 1m",
+            "Sarclage précoce 2 fois",
+            "Récolte de 10 à 12 mois maximum"
+          ],
+          "maladies": [
+            { "nom": "Mosaïque africaine", "remede": "Variétés résistantes et sains rejets" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 50000,
+            "engrais_fcfa_ha": 17000,
+            "main_oeuvre_fcfa_ha": 70000
+          },
+          "prix_vente_fcfa_kg": 150
+        }
+      ],
+      "elevage_dominant": [
+        "Bovin sédentaire",
+        "Ovin sahélien",
+        "Caprin local",
+        "Volaille locale",
+        "Porc local",
+        "Apiculture forestière développée"
+      ],
+      "transformation": [
+        "Foutou d’igname",
+        "Moulins céréales maïs",
+        "Transformation d'noix d’anacarde",
+        "Extraction de miel pur",
+        "Vin de palme de brousse",
+        "Vin de sorgho traditionnel (Tchoukoutou)"
+      ],
+      "agro_cosmetique": [
+        "Beurre de karité pur",
+        "Huile thermale d’anacarde",
+        "Savons locaux parfumés au miel",
+        "Baumes corporels traditionnels de l'Atacora"
+      ]
+    },
+    {
+      "nom": "Borgou",
+      "zone": "Zone cotonnière Nord + Sud-Borgou + Centre-Bénin",
+      "zone_id": "ZA6",
+      "cultures": [
+        {
+          "nom": "Igname précoce",
+          "rendement_moyen_kg_m2": 2.2,
+          "cycle_jours": 240,
+          "periode_semis": "Décembre-Janvier",
+          "itineraire": [
+            "Buttage régulier meuble 30cm",
+            "Tuteurage robuste",
+            "Récolte progressive à maturité"
+          ],
+          "maladies": [
+            { "nom": "Pourriture des tubercules de conservation", "remede": "Cendres de bois et entreposage sec" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 200000,
+            "engrais_fcfa_ha": 17000,
+            "main_oeuvre_fcfa_ha": 150000
+          },
+          "prix_vente_fcfa_kg": 300
+        },
+        {
+          "nom": "Soja grain",
+          "rendement_moyen_kg_m2": 1.5,
+          "cycle_jours": 120,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": [
+            "Semis dense 40x10cm",
+            "Inoculation biologique rhizobium avant semis",
+            "Récolte dès le jaunissement total des feuilles"
+          ],
+          "maladies": [
+            { "nom": "Rouille bactérienne", "remede": "Fongicide précoce ou décoction bio" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 30000,
+            "engrais_fcfa_ha": 17000,
+            "main_oeuvre_fcfa_ha": 50000
+          },
+          "prix_vente_fcfa_kg": 350
+        },
+        {
+          "nom": "Anacarde blanc",
+          "rendement_moyen_kg_m2": 0.7,
+          "cycle_jours": 365,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": [
+            "Plantation large 10x10m",
+            "Taille d'entretien",
+            "Récolte manuelle de Mars à Mai"
+          ],
+          "maladies": [
+            { "nom": "Anthracnose", "remede": "Décoction de neem ou fongicide doux" }
+          ],
+          "couts": {
+            "semence_fcfa_ha": 50000,
+            "engrais_fcfa_ha": 0,
+            "main_oeuvre_fcfa_ha": 60000
+          },
+          "prix_vente_fcfa_kg": 400
+        }
+      ],
+      "elevage_dominant": [
+        "Bovin Borgou de sédentaire",
+        "Ovin local",
+        "Caprin rustique",
+        "Volaille fermière",
+        "Porcs d'élevage",
+        "Equins de prestige"
+      ],
+      "transformation": [
+        "Egrenage industriel du coton",
+        "Trituration artisanale de soja",
+        "Transformation de noix d'anacarde",
+        "Huilerie artisanale de karité",
+        "Gari de manioc",
+        "Tapioca de luxe",
+        "Bière de mil locale"
+      ],
+      "agro_cosmetique": [
+        "Beurre de karité aromatisé",
+        "Huile cosmétique de coton",
+        "Savons de beauté au karité",
+        "Baumes réparateurs de brousse"
+      ]
+    },
+    {
+      "nom": "Donga",
+      "zone": "Ouest-Atacora + Sud-Borgou",
+      "zone_id": "ZA5",
+      "cultures": [
+        {
+          "nom": "Igname de Djougou",
+          "rendement_moyen_kg_m2": 2.1,
+          "cycle_jours": 240,
+          "periode_semis": "Décembre-Janvier",
+          "itineraire": ["Buttage meuble 30cm", "Tuteurage soigné", "Arrachage à 240 jours"],
+          "maladies": [{ "nom": "Pourriture molle", "remede": "Cendres de tige d'oignon mélangées au monticule" }],
+          "couts": { "semence_fcfa_ha": 200000, "engrais_fcfa_ha": 17000, "main_oeuvre_fcfa_ha": 150000 },
+          "prix_vente_fcfa_kg": 300
+        },
+        {
+          "nom": "Maïs Donga",
+          "rendement_moyen_kg_m2": 2.8,
+          "cycle_jours": 110,
+          "periode_semis": "Mai-Juin",
+          "itineraire": ["Semis précis 80x40cm", "Apport de fumier et d'Urée 100kg/ha"],
+          "maladies": [{ "nom": "Chenille légionnaire", "remede": "Application d'infusion de neem forte" }],
+          "couts": { "semence_fcfa_ha": 25000, "engrais_fcfa_ha": 34000, "main_oeuvre_fcfa_ha": 45000 },
+          "prix_vente_fcfa_kg": 260
+        },
+        {
+          "nom": "Anacarde",
+          "rendement_moyen_kg_m2": 0.65,
+          "cycle_jours": 365,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": ["Semis ou repiquage en verger 10x10m", "Parre-feu annuel de protection"],
+          "maladies": [{ "nom": "Anthracnose foliaire", "remede": "Bouillie bordelaise ou fongicide bio" }],
+          "couts": { "semence_fcfa_ha": 50000, "engrais_fcfa_ha": 0, "main_oeuvre_fcfa_ha": 60000 },
+          "prix_vente_fcfa_kg": 400
+        }
+      ],
+      "elevage_dominant": ["Bovin", "Ovin", "Caprin rustique", "Volaille traditionnelle", "Porc local"],
+      "transformation": ["Foutou d'igname locale", "Gari jaune au palme", "Tapioca traditionnel", "Amande d'anacarde torréfiée", "Moulins céréales"],
+      "agro_cosmetique": ["Beurre de karité traditionnel", "Huile de Palme rouge", "Savons noirs", "Baume capillaire au karité"]
+    },
+    {
+      "nom": "Collines",
+      "zone": "Zone cotonnière Centre-Bénin",
+      "zone_id": "ZA4b",
+      "cultures": [
+        {
+          "nom": "Maïs des Collines",
+          "rendement_moyen_kg_m2": 3.0,
+          "cycle_jours": 110,
+          "periode_semis": "Mai-Juin",
+          "itineraire": ["Semis précis 80x40cm", "Désherbage rigoureux 2 fois", "Ferti Urée 100kg/ha"],
+          "maladies": [{ "nom": "Chenilles voraces", "remede": "Insecticide ou ail fort dilué" }],
+          "couts": { "semence_fcfa_ha": 25000, "engrais_fcfa_ha": 34000, "main_oeuvre_fcfa_ha": 45000 },
+          "prix_vente_fcfa_kg": 260
+        },
+        {
+          "nom": "Igname douce de Savalou",
+          "rendement_moyen_kg_m2": 2.0,
+          "cycle_jours": 240,
+          "periode_semis": "Décembre-Janvier",
+          "itineraire": ["Gros buttes riches en débris", "Tuteurage incliné en bambou", "Récolte après dessèchement des tiges"],
+          "maladies": [{ "nom": "Pourriture grise", "remede": "Saupoudrage copieux de cendres au collet" }],
+          "couts": { "semence_fcfa_ha": 200000, "engrais_fcfa_ha": 17000, "main_oeuvre_fcfa_ha": 150000 },
+          "prix_vente_fcfa_kg": 300
+        },
+        {
+          "nom": "Soja jaune",
+          "rendement_moyen_kg_m2": 1.6,
+          "cycle_jours": 120,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": ["Lit de semence fin", "Rhizobium actif", "Fauchage à maturité dorée"],
+          "maladies": [{ "nom": "Rouille bactérienne", "remede": "Cendres de bois et rotation culturale" }],
+          "couts": { "semence_fcfa_ha": 30000, "engrais_fcfa_ha": 17000, "main_oeuvre_fcfa_ha": 50000 },
+          "prix_vente_fcfa_kg": 350
+        }
+      ],
+      "elevage_dominant": ["Bovin de savane", "Ovin Djallonké", "Caprin", "Volaille moderne", "Porc local", "Aquaculture en étangs de bas-fonds"],
+      "transformation": ["Gari de Savalou", "Tapioca de manioc", "Huile de palme rouge", "Huile pure de soja", "Fromage végétal soja (Wara)", "Torréfaction de cajou"],
+      "agro_cosmetique": ["Huile de palme rouge raffinée", "Beurre de karité sauvage", "Savons parfumés bio", "Laits corporels au karité"]
+    },
+    {
+      "nom": "Zou",
+      "zone": "Zone cotonnière Centre + Terres de barre + Dépression",
+      "zone_id": "ZA4",
+      "cultures": [
+        {
+          "nom": "Maïs blanc d'Abomey",
+          "rendement_moyen_kg_m2": 3.2,
+          "cycle_jours": 110,
+          "periode_semis": "Mai-Juin",
+          "itineraire": ["Traceurs en ligne 80x40cm", "Sarclage manuel précoce", "Urée active au sol"],
+          "maladies": [{ "nom": "Chenilles légionnaires", "remede": "Insecticide certifié ou purin végétal" }],
+          "couts": { "semence_fcfa_ha": 25000, "engrais_fcfa_ha": 34000, "main_oeuvre_fcfa_ha": 45000 },
+          "prix_vente_fcfa_kg": 260
+        },
+        {
+          "nom": "Manioc de transition",
+          "rendement_moyen_kg_m2": 3.5,
+          "cycle_jours": 300,
+          "periode_semis": "Avril-Mai",
+          "itineraire": ["Planche ou billon forestier", "Bouturage incliné 1m", "Désherbage pré et post levée"],
+          "maladies": [{ "nom": "Mosaïque foliaire", "remede": "Brûler les résidus et utiliser les clones résistants" }],
+          "couts": { "semence_fcfa_ha": 50000, "engrais_fcfa_ha": 17000, "main_oeuvre_fcfa_ha": 70000 },
+          "prix_vente_fcfa_kg": 150
+        },
+        {
+          "nom": "Tomate de saison",
+          "rendement_moyen_kg_m2": 3.0,
+          "cycle_jours": 90,
+          "periode_semis": "Juillet-Août",
+          "itineraire": ["Plateau alvéolé sous serre de brousse", "Repiquage espaçant", "Paillage"],
+          "maladies": [{ "nom": "Flétrissement bactérien", "remede": "Arrachage, rotation stricte sans solanacées" }],
+          "couts": { "semence_fcfa_ha": 40000, "engrais_fcfa_ha": 51000, "main_oeuvre_fcfa_ha": 80000 },
+          "prix_vente_fcfa_kg": 450
+        }
+      ],
+      "elevage_dominant": ["Volaille traditionnelle et moderne", "Porc rustique", "Petit ruminant", "Aquaculture", "Héliciculture (escargots)"],
+      "transformation": ["Gari croustillant", "Tapioca", "Huile de palme raffinée", "Riz de bas-fond étuvé", "Concentré de tomate pur", "Piment rouge séché en poudre"],
+      "agro_cosmetique": ["Huile de palme vierge", "Savons artisanaux d'Abomey", "Crèmes cosmétiques enrichies au palmiste", "Huile de neem médicinale"]
+    },
+    {
+      "nom": "Plateau",
+      "zone": "Terres de barre fertiles",
+      "zone_id": "ZA2",
+      "cultures": [
+        {
+          "nom": "Maïs Doux du Plateau",
+          "rendement_moyen_kg_m2": 3.5,
+          "cycle_jours": 110,
+          "periode_semis": "Mai-Juin",
+          "itineraire": ["Semis précis 80x40cm", "Urée fractionnée", "Deux sarclages ciblés"],
+          "maladies": [{ "nom": "Chenilles ravageuses d'automne", "remede": "Bio-pesticide ou insecticide" }],
+          "couts": { "semence_fcfa_ha": 25000, "engrais_fcfa_ha": 34000, "main_oeuvre_fcfa_ha": 45000 },
+          "prix_vente_fcfa_kg": 260
+        },
+        {
+          "nom": "Ananas Pain de Sucre",
+          "rendement_moyen_kg_m2": 4.5,
+          "cycle_jours": 540,
+          "periode_semis": "Toute l'année",
+          "itineraire": [
+            "Plantation serrée de rejets sains 60x30cm",
+            "Traitement mécanique d'induction florale",
+            "Récolte soignée à 18 mois d'âge"
+          ],
+          "maladies": [{ "nom": "Pourriture du coeur", "remede": "Eviter stagnation eau, traitement cuivrique préventif" }],
+          "couts": { "semence_fcfa_ha": 120000, "engrais_fcfa_ha": 102000, "main_oeuvre_fcfa_ha": 100000 },
+          "prix_vente_fcfa_kg": 200
+        },
+        {
+          "nom": "Tomate maraîchère",
+          "rendement_moyen_kg_m2": 3.0,
+          "cycle_jours": 90,
+          "periode_semis": "Juillet-Août",
+          "itineraire": ["Sélection de semenceaux vigoureux", "Arrosage matinal doux", "Paillage copieux"],
+          "maladies": [{ "nom": "Mosaïque virale", "remede": "Décoction diluée de piment fort ou cendre sèche au sol" }],
+          "couts": { "semence_fcfa_ha": 40000, "engrais_fcfa_ha": 51000, "main_oeuvre_fcfa_ha": 80000 },
+          "prix_vente_fcfa_kg": 450
+        }
+      ],
+      "elevage_dominant": ["Volaille moderne de ponte", "Porc sélectionné", "Petit ruminant", "Aquaculture en étang ou bac"],
+      "transformation": [
+        "Gari extra blanc fin",
+        "Tapioca de luxe",
+        "Huile de palme raffinée",
+        "Jus d’ananas Pain de Sucre pur",
+        "Transformation d'agrumes en jus",
+        "Farine de manioc raffinée",
+        "Vin de palme doux"
+      ],
+      "agro_cosmetique": [
+        "Huile cosmétique de palmiste",
+        "Huile clarifiée de coco",
+        "Savons parfumés",
+        "Gommage corporel à la pulpe d’ananas sec",
+        "Huile essentielle d’agrumes"
+      ]
+    },
+    {
+      "nom": "Ouémé",
+      "zone": "Terres de barre + Dépression + Pêcheries",
+      "zone_id": "ZA2b",
+      "cultures": [
+        {
+          "nom": "Riz irrigué de la Vallée",
+          "rendement_moyen_kg_m2": 4.0,
+          "cycle_jours": 120,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": ["Labour profond sous lame d'eau", "Désherbage rigoureux", "Fractionnement d'Urée"],
+          "maladies": [{ "nom": "Pyriculariose foliaire", "remede": "Variétés résistantes INRAB ou traitement précoce" }],
+          "couts": { "semence_fcfa_ha": 40000, "engrais_fcfa_ha": 51000, "main_oeuvre_fcfa_ha": 80000 },
+          "prix_vente_fcfa_kg": 626
+        },
+        {
+          "nom": "Maraîchage intensif",
+          "rendement_moyen_kg_m2": 3.0,
+          "cycle_jours": 90,
+          "periode_semis": "Toute l'année",
+          "itineraire": ["Plateaux de brousse", "Arrosage au goutte-à-goutte régulier", "Tuteurage de tomates/piment"],
+          "maladies": [{ "nom": "Mildiou humide", "remede": "Mélange cuivrique bio à la cendre" }],
+          "couts": { "semence_fcfa_ha": 60000, "engrais_fcfa_ha": 51000, "main_oeuvre_fcfa_ha": 100000 },
+          "prix_vente_fcfa_kg": 450
+        },
+        {
+          "nom": "Ananas Pain",
+          "rendement_moyen_kg_m2": 4.5,
+          "cycle_jours": 540,
+          "periode_semis": "Toute l'année",
+          "itineraire": ["Buttage soigné", "Sélection de rejets d'ananas vigoureux", "Traitement d'induction florale"],
+          "maladies": [{ "nom": "Pourriture bactérienne", "remede": "Traitement cuprique préventif" }],
+          "couts": { "semence_fcfa_ha": 120000, "engrais_fcfa_ha": 102000, "main_oeuvre_fcfa_ha": 100000 },
+          "prix_vente_fcfa_kg": 200
+        }
+      ],
+      "elevage_dominant": ["Volaille intensive", "Porc de race", "Pisciculture intensive", "Pêche en milieu lagunaire"],
+      "transformation": ["Riz étuvé de la Vallée", "Gari jaune", "Huile de palme brute", "Jus de fruits frais", "Concentré de tomate", "Fumage traditionnel de poissons"],
+      "agro_cosmetique": ["Huile de palme médicinale", "Huile de coco raffinée", "Savons", "Gels douche aux plantes natives", "Crèmes cosmétiques exfoliantes ananas-citron"]
+    },
+    {
+      "nom": "Atlantique",
+      "zone": "Dépression + Pêcheries",
+      "zone_id": "ZA1",
+      "cultures": [
+        {
+          "nom": "Maraîchage de saison",
+          "rendement_moyen_kg_m2": 3.0,
+          "cycle_jours": 90,
+          "periode_semis": "Toute l'année",
+          "itineraire": ["Pépinière de précision", "Goutte à goutte calibré", "Binage superficiel"],
+          "maladies": [{ "nom": "Mildiou", "remede": "Bouillie bordelaise ou fongicide doux" }],
+          "couts": { "semence_fcfa_ha": 60000, "engrais_fcfa_ha": 51000, "main_oeuvre_fcfa_ha": 100000 },
+          "prix_vente_fcfa_kg": 450
+        },
+        {
+          "nom": "Cocotier d'Allada",
+          "rendement_moyen_kg_m2": 2.0,
+          "cycle_jours": 365,
+          "periode_semis": "Toute l'année",
+          "itineraire": ["Creusement de fosses larges 9x9m", "Fumage initial copieux", "Récolte continue"],
+          "maladies": [{ "nom": "Jaunissement mortel du palmier", "remede": "Abattage sanitaire obligatoire des arbres atteints" }],
+          "couts": { "semence_fcfa_ha": 80000, "engrais_fcfa_ha": 17000, "main_oeuvre_fcfa_ha": 50000 },
+          "prix_vente_fcfa_kg": 150
+        }
+      ],
+      "elevage_dominant": ["Volaille intensive", "Porc sélectionné", "Aquaculture continentale", "Pisciculture", "Elevages périurbains divers", "Apiculture côtière"],
+      "transformation": ["Gari extra blanc d'Allada", "Huile de palme rouge", "Huile vierge de coco", "Fumage moderne de poissons", "Jus de fruits tropicaux purs"],
+      "agro_cosmetique": ["Huile vierge de coco pressée", "Huile de palme", "Savons de Cotonou", "Gels douche", "Crèmes hydratantes à l'aloe vera local"]
+    },
+    {
+      "nom": "Mono",
+      "zone": "Terres de barre + Pêcheries",
+      "zone_id": "ZA3",
+      "cultures": [
+        {
+          "nom": "Maïs Mono",
+          "rendement_moyen_kg_m2": 3.0,
+          "cycle_jours": 110,
+          "periode_semis": "Mai-Juin",
+          "itineraire": ["Semis précis 80x40cm", "Désherbage précoce", "Urée 100kg/ha"],
+          "maladies": [{ "nom": "Chenilles d'automne", "remede": "Insecticides ou traitement bio neem" }],
+          "couts": { "semence_fcfa_ha": 25000, "engrais_fcfa_ha": 34000, "main_oeuvre_fcfa_ha": 45000 },
+          "prix_vente_fcfa_kg": 260
+        },
+        {
+          "nom": "Manioc du Mono",
+          "rendement_moyen_kg_m2": 3.2,
+          "cycle_jours": 300,
+          "periode_semis": "Avril-Mai",
+          "itineraire": ["Semis de boutures vigor", "Écartement standard 1x1m", "Nettoyage pré-tubérisation"],
+          "maladies": [{ "nom": "Mosaïque virale", "remede": "Utilisation de rejets résistants" }],
+          "couts": { "semence_fcfa_ha": 50000, "engrais_fcfa_ha": 17000, "main_oeuvre_fcfa_ha": 70000 },
+          "prix_vente_fcfa_kg": 150
+        }
+      ],
+      "elevage_dominant": ["Volaille moderne", "Porcs d'élevage local", "Petit ruminant", "Aquaculture", "Pisciculture de lagune côtière"],
+      "transformation": ["Gari de Lokossa", "Huile de palme brute", "Huile de coco vierge", "Fumage de poissons du lac", "Vin de palme traditionnel", "Farine saine de manioc"],
+      "agro_cosmetique": ["Huile de coco purifiée", "Huile de palme rouge", "Savons parfumés", "Crème adoucissante", "Huile essentielle de citronnelle locale"]
+    },
+    {
+      "nom": "Couffo",
+      "zone": "Terres de barre + Dépression",
+      "zone_id": "ZA3b",
+      "cultures": [
+        {
+          "nom": "Maïs Couffo",
+          "rendement_moyen_kg_m2": 2.8,
+          "cycle_jours": 110,
+          "periode_semis": "Mai-Juin",
+          "itineraire": ["Mise en place sur buttes sablo-argileuses", "Fertilisation Urée", "Deux sarclages"],
+          "maladies": [{ "nom": "Chenille de l'épi", "remede": "Insecticide ou solutions bio neem" }],
+          "couts": { "semence_fcfa_ha": 25000, "engrais_fcfa_ha": 34000, "main_oeuvre_fcfa_ha": 45000 },
+          "prix_vente_fcfa_kg": 260
+        },
+        {
+          "nom": "Voandzou résistant",
+          "rendement_moyen_kg_m2": 1.0,
+          "cycle_jours": 120,
+          "periode_semis": "Juin-Juillet",
+          "itineraire": ["Labour meuble", "Semis direct régulier 30x20cm", "Buttage soigné à la floraison"],
+          "maladies": [{ "nom": "Charançons destructeurs du stockage", "remede": "Conditionnement hermétique ou fûts hermétiques" }],
+          "couts": { "semence_fcfa_ha": 20000, "engrais_fcfa_ha": 0, "main_oeuvre_fcfa_ha": 40000 },
+          "prix_vente_fcfa_kg": 400
+        }
+      ],
+      "elevage_dominant": ["Volaille de chair", "Porc sélectionné", "Petit ruminant rustique", "Aquaculture maraîchère'],"],
+      "transformation": ["Gari extra de Dogbo", "Tapioca de manioc", "Huile de palme rouge vierge", "Piment rouge séché broyé", "Farines infantiles niébé-voandzou"],
+      "agro_cosmetique": ["Huile de palme rouge brute", "Savons noirs locaux de Dogbo", "Baumes hydratants traditionnels", "Huile médicinale de neem"]
+    },
+    {
+      "nom": "Littoral",
+      "zone": "Pêcheries côtières",
+      "zone_id": "ZA1b",
+      "cultures": [
+        {
+          "nom": "Maraîchage urbain Cotonou",
+          "rendement_moyen_kg_m2": 2.5,
+          "cycle_jours": 90,
+          "periode_semis": "Toute l'année",
+          "itineraire": ["Cultures hors-sol ou en bacs filtrés", "Serres protectrices de brousse", "Arrosage raisonné"],
+          "maladies": [{ "nom": "Mildiou humide", "remede": "Fongicide cuivrique homologué ou purin de piment" }],
+          "couts": { "semence_fcfa_ha": 80000, "engrais_fcfa_ha": 68000, "main_oeuvre_fcfa_ha": 120000 },
+          "prix_vente_fcfa_kg": 500
+        },
+        {
+          "nom": "Manioc sablonneux",
+          "rendement_moyen_kg_m2": 2.5,
+          "cycle_jours": 300,
+          "periode_semis": "Avril-Mai",
+          "itineraire": ["Bouturage sur buttes de cordon dunaire", "Sarclages réguliers", "Récolte précoce"],
+          "maladies": [{ "nom": "Mosaïque côtière", "remede": "Plat résistant sélectionné INRAB" }],
+          "couts": { "semence_fcfa_ha": 50000, "engrais_fcfa_ha": 17000, "main_oeuvre_fcfa_ha": 70000 },
+          "prix_vente_fcfa_kg": 150
+        }
+      ],
+      "elevage_dominant": ["Volaille intensive ponte/chair", "Porc lourd moderne", "Aquaculture urbaine en bacs ronds", "Élevages périurbains intensifs"],
+      "transformation": ["Transformation maraîchère de pointe", "Fumage de poissons marins", "Jus de fruits industriels", "Boissons fraîches enrichies", "Conversion de manioc en gari"],
+      "agro_cosmetique": ["Huile raffinée de coco de plage", "Savons fins parfumés", "Gels douche cosmétiques de pointe", "Crèmes cosmétiques maison aux extraits maraîchers", "Huiles d'aromathérapie"]
+    }
+  ],
+  "meta": {
+    "source": "MAEP Bénin, INStaD RNA 2022, Conseil des ministres 21 mai 2025, Monographies départementales",
+    "annee_reference": "2025-2026",
+    "notes": "Rendements exprimés originellement en kg/m2. Couts d'intrants calqués sur barèmes subventionnés officieux. Les charges financières de production maraîchère/vivrière sont proratisées selon surface d'exploitation réelle."
+  }
+}

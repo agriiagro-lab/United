@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriBot Mine d'Or - Portail d'Agroécologie Bénin</title>
+    <!-- Web Manifest integration -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" href="/logo_agribot.png" />
+    <link rel="shortcut icon" type="image/png" href="/logo_agribot.png" />
+    <link rel="apple-touch-icon" href="/logo_agribot.png" />
+    <meta name="theme-color" content="#1aad55" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AgriBot Mine d'Or" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Register service worker to make the app installable on smartphones -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => {
+              console.log('Service Worker enregistré pour l\'installation de l\'application ! Scope :', reg.scope);
+            })
+            .catch(err => {
+              console.error('Erreur d\'enregistrement SW :', err);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
+

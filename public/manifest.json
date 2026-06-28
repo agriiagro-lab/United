@@ -1,0 +1,48 @@
+{
+  "short_name": "AgriBot Mine d'Or",
+  "name": "AgriBot Mine d'Or - Portail d'Agroécologie Bénin",
+  "description": "Plateforme agricole intelligente, météo locale par commune, marché d'opportunités, recrutement et assistant IA AgriBot spécialisé.",
+  "icons": [
+    {
+      "src": "logo_agribot.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "logo_agribot.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "logo_agribot.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logo_agribot.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/logo_agribot.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo_agribot.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#080d0a",
+  "theme_color": "#1aad55",
+  "display": "standalone",
+  "orientation": "portrait"
+}

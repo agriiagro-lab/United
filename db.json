@@ -1,0 +1,46 @@
+{
+  "customCultures": [],
+  "users": [
+    {
+      "id": "usr_admin_jbz",
+      "email": "jbzounmatoun@gmail.com",
+      "firstName": "Jean-Baptiste",
+      "lastName": "ZOUNMATOUN",
+      "username": "administrateur",
+      "passwordHash": "08332",
+      "trialStartDate": "2026-05-22T11:57:36Z",
+      "isPremium": true
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_01",
+      "senderId": "system",
+      "senderName": "AgriBot Système",
+      "content": "🌿 Bienvenue sur AgriChat ! Échangez en direct avec notre communauté d'agro-entrepreneurs d'Afrique.",
+      "timestamp": "2026-06-14T02:00:00.000Z",
+      "readBy": []
+    }
+  ],
+  "contactMessages": [],
+  "products": [],
+  "cvs": [],
+  "projects": [],
+  "solidarityDemands": [],
+  "solidarityCandidatures": [],
+  "appelsCandidatures": [],
+  "subscriptions": [],
+  "avis": [
+    {
+      "id": "a1",
+      "userId": "usr_admin_jbz",
+      "userName": "Jean-Baptiste",
+      "note": 5,
+      "commentaire": "Plateforme extrêmement fluide pour gérer notre exploitation.",
+      "createdAt": "2026-06-14T02:00:00.000Z"
+    }
+  ],
+  "unlockedContacts": [],
+  "tiktokVideos": [],
+  "userSavedVideos": []
+}
